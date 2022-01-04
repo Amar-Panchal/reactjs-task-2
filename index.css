@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.chat-icon{
+  position:fixed;
+  top: 0;
+  font-size: 2rem;
+  margin-top: -8rem;
+  background-color: #2962ff;
+  padding: 12px 16px 5px;
+  border-radius: 50%;
+  border: 1px solid #1420a7;
+
+}
+
+.section{
+  opacity: 1;
+}
+.one{
+  margin: 0 !important;
+  background-color: #051320;
+  color: #ffffff;
+  height: 100vh;
+}
+.one .div-one{
+  background-color: #1d3450;
+  width: 70%;
+
+}
+.one .div-one .text-1 h4{
+  font-size: 1.3rem;
+  margin-left: -1rem;
+}
+.one .div-one .text-1 h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-left: -1rem;
+
+}
+.one .div-one .text-1 h5{
+  margin-top: 1rem;
+  font-size:1rem;
+}
+.one .div-one .text-2 {
+  margin-top: 70%;
+  margin-left: 3rem;
+}
+
+.one .div-one .text-2 h1{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.one .div-one .text-2 h6{
+  font-size: 1rem;
+  width: 35%;
+  line-height: 1.5rem;
+}
+.one .div-one .text-2 h5{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.one .div-one .text-2 .div-two{
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+
+}
+.one .div-one .text-2 h4{
+  font-size: 1.1rem;
+  letter-spacing: 8px;
+}
+.one .box{
+  background-color:  #1d3450 ;
+  width: fit-content;
+  margin-left:25%;
+  margin-top: 2rem;
+  padding-left:4rem ;
+  padding-right:6rem ;
+  padding-top: 8.5rem;
+  padding-bottom:8.5rem ;
+  position:absolute;
+  border-radius: 50%;
+  
+}
+.coming{
+  color: #76808a;
+}
+.one .div-two .img1{
+  width: 25rem;
+  height: 10rem;
+}
+.one .div-two .img2{
+    margin-top: 5rem;
+    width: 11rem;
+}
+.one .div-two .img3{
+   margin-top: -25rem;
+}
+.one .div-two .img4{
+  margin-left: 9rem;
+  width: 12rem;
+  
+}
+.one .div-two .img5{
+  width:20rem;
+  height: 10rem;
+  align-self:flex-end;
+}
+.two .div-two .img1{
+  width: 12rem;
+  height: max-content;
+  margin-left:60% ;
+  margin-top: -4rem;
+}
+.two .div-two .img2{
+  width: 15rem;
+  margin-left: 25%;
+}
+.third .div-one .text-2 h6{
+  font-size: 1rem;
+  width: 35%;
+  line-height: 1.5rem;
+}
+.third .div-two .img1{
+  width: 11rem;
+  height: max-content;
+  margin-left: 69%;
+}
+.third .div-two .img2{
+  width: 12rem;
+  margin-left: 25%;
+  
+}
+.forth .div-one .text-2 h6{
+  width: 45% !important;
+}
+.forth .text-1 h4,.forth .text-1 h1 {
+  margin-left: -5rem !important;
+}
+.two .text-1 h4 {
+  margin-left: -3rem;
+}
+.two  .box img{
+  width: 15rem;
+}
+.two .text-2{
+  padding-bottom: 40px;
+}
+
+
+.forth .div-two .img1{
+  width: 100%;
+  height: fit-content;
+}
+
+.fifth .text-2{
+  margin-top: 60% !important;
+  
+}
+.fifth .text-2 .img1{
+  margin-bottom: 15px;
+  width: 15rem;
+  height: 5rem;
+}
+.fifth .text-1 h4,.fifth .text-1 h1{
+  margin-left: 2rem !important;
+}
+.fifth .div-two .img1{
+  width: 14rem;
+  height: max-content;
+  margin-top: 45%;
+  margin-left: 35%;
+}
+
+.fifth .div-two .img2{
+  width: 11rem;
+  margin-top: 40%;
+  margin-left: -2rem;
+}
+
+.sixth .text-2 .img1{
+  margin-bottom: 15px;
+  width: 15rem;
+  height: 5rem;
+}
+.sixth .text-2{
+  margin-top: 56% !important;
+}
+.sixth .div-two .img1  {
+    width: 14rem;
+    height: max-content;
+    margin-left: 30%;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: transparent;
+  
+  
+}
+.sixth .div-one .box h1,.sixth .div-one .box h4{
+  margin-left: -11rem !important;
+
+}
+.sixth .div-two .img2{
+  width: 14rem;
+  height: fit-content;
+  margin-top: 0;
+  background-color: transparent;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.sixth .text-2 h5,.sixth .text-2 h4{
+  padding-bottom: 70px;
+}
+.sixth{
+  background-color: #f3e5f5;
+}
+.sixth .box{
+  background-color: #4a148c;
+
+}
+.sixth .div-one{
+  background-color: #4a148c;
+}
+
+.two{
+  background-color: #17174e;
+}
+.two .box{
+  background-color: #02023b;
+
+}
+.two .div-one{
+  background-color: #02023b;
+}
+.third .box{
+  background-color: #5514e0;
+}
+.third .div-one{
+  background-color: #5514e0;
+}
+.third {
+  background-color: #0d024d;
+}
+.forth .box{
+  background-color: #1420a7;
+}
+.forth .div-one{
+  background-color: #1420a7;
+}
+.forth {
+  background-image:url(/images/interior.jpg);
+}
+.fifth .box{
+  background-color: #1e7746;
+}
+.fifth .div-one{
+  background-color: #1e7746;
+}
+.fifth {
+  background-color: #0daf56;
+}
+.seventh .div-two .img1{
+  width: 9rem !important ;
+  margin-top: 0!important;
+  height: fit-content;
+  margin-left: 5rem;
+  margin-right: 1rem;
+}
+.seventh .div-two .img2{
+  width: 10rem !important;
+  margin-right: 1rem;
+  margin-top: 0 !important;
+  height: fit-content;
+}
+.seventh .div-two .img3{
+  width: 10rem !important;
+  margin-top: 6rem ;
+
+}
+.seventh .div-two .img4{
+  width: 12rem !important;
+  margin-top: 3rem;
+}
+.seventh .div-two .img5{
+  width: 11rem !important;
+  height: fit-content;
+
+} 
+
+.seventh .box h4 ,.seventh .box h1{
+  margin-left: -5rem !important;
+}
+.seventh .box{
+  background-color: #2962ff;
+  
+}
+.seventh .div-one{
+  background-color: #2962ff;
+}
+.seventh {
+  background-color: #4dd0e1;
+}
+
+.mobile{
+  display: none;
+  color: #ffffff;
+
+}
+
+.mobile .item1{
+  width: 100%;
+  height: 100%;
+  background-color: #0daf56;
+
+}
+.mobile .item .img-div{
+  height: 560px;
+  position: relative;
+}
+.mobile .item .text-div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.mobile .item1 .text-div {
+  width: 100%;
+  background-color: #02023b;
+}
+.mobile .item2 .text-div {
+  width: 100%;
+  background-color: #051320;
+}
+.mobile .item3 .text-div {
+  width: 100%;
+  background-color: #2962ff;
+}
+.mobile .item4 .text-div {
+  width: 100%;
+  background-color: #1420a7;
+}
+.mobile .item5 .text-div {
+  width: 100%;
+  background-color:#5514e0;
+}
+.mobile .item6 .text-div {
+  width: 100%;
+  background-color:#4a148c;
+}
+.mobile .item7 .text-div {
+  width: 100%;
+  background-color:#1e7746;
+}
+
+.mobile .item .text-div h1{
+  padding-top: 1rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.mobile .item .text-div h6{
+  font-size: 1.5rem;
+
+}
+.mobile .item .text-div h4{
+    padding-top:2rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1164px){
+.desktop{
+  display: none;
+}
+.mobile{
+  display:inline;
+}
+
+}
