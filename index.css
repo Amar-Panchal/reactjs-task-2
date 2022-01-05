@@ -6,18 +6,23 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-.chat-icon{
-  position:fixed;
-  top: 0;
-  font-size: 2rem;
-  margin-top: -8rem;
-  background-color: #2962ff;
-  padding: 12px 16px 5px;
-  border-radius: 50%;
-  border: 1px solid #1420a7;
-
+body{
+  line-height: 0;
 }
-
+.sixth svg{
+  width: 22rem;
+  position: absolute;
+  background-color: transparent !important;
+  margin-top: -14rem;
+  margin-left: -2rem;
+}
+svg{
+  width: 22rem;
+  position: absolute;
+  background-color: transparent !important;
+  margin-top: -7rem;
+  
+}
 .section{
   opacity: 1;
 }
@@ -34,7 +39,7 @@
 }
 .one .div-one .text-1 h4{
   font-size: 1.3rem;
-  margin-left: -1rem;
+    margin-left: -1rem;
 }
 .one .div-one .text-1 h1{
   font-size: 3rem;
@@ -42,8 +47,13 @@
   margin-left: -1rem;
 
 }
+.first .div-one .text-1 h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-left: -2rem;
+
+}
 .one .div-one .text-1 h5{
-  margin-top: 1rem;
   font-size:1rem;
 }
 .one .div-one .text-2 {
@@ -79,9 +89,9 @@
   margin-left:25%;
   margin-top: 2rem;
   padding-left:4rem ;
-  padding-right:6rem ;
-  padding-top: 8.5rem;
-  padding-bottom:8.5rem ;
+  padding-right:7rem ;
+  padding-top: 8rem;
+  padding-bottom:8rem ;
   position:absolute;
   border-radius: 50%;
   
@@ -142,10 +152,11 @@
   margin-left: -5rem !important;
 }
 .two .text-1 h4 {
-  margin-left: -3rem;
+  margin-left: 3rem;
 }
 .two  .box img{
-  width: 15rem;
+  width: 14rem;
+  margin-left: 2rem;
 }
 .two .text-2{
   padding-bottom: 40px;
@@ -199,13 +210,32 @@
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     background-color: transparent;
-  
+ 
+}
+.sixth .div-one .box h1{
+  font-size: 2.5rem;
+  padding-top: 10px;
   
 }
+.sixth .box{
+  background-color:  #1d3450 ;
+  width: fit-content;
+  margin-left:25%;
+  margin-top: 2rem;
+  padding-left:4rem ;
+  padding-right:6rem ;
+  padding-top: 8.2rem;
+  padding-bottom:8.3rem ;
+  position:absolute;
+  border-radius: 50%;
+  
+}
+
 .sixth .div-one .box h1,.sixth .div-one .box h4{
-  margin-left: -11rem !important;
+  margin-left: -7rem !important;
 
 }
+
 .sixth .div-two .img2{
   width: 14rem;
   height: fit-content;
@@ -315,23 +345,18 @@
 
 }
 
-.mobile .item1{
+.mobile .item{
   width: 100%;
   height: 100%;
-  background-color: #0daf56;
-
 }
 .mobile .item .img-div{
-  height: 560px;
+  width: 100%;
   position: relative;
 }
 .mobile .item .text-div {
   width: 100%;
-  height: 100%;
-  position: relative;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  height: 400px;
+  padding: 40px;
 }
 .mobile .item1 .text-div {
   width: 100%;
@@ -351,31 +376,73 @@
 }
 .mobile .item5 .text-div {
   width: 100%;
-  background-color:#5514e0;
+  background-image: linear-gradient(to right bottom, #9d0aad, #bf2ff9, #963af7, #6740f2);
 }
 .mobile .item6 .text-div {
   width: 100%;
-  background-color:#4a148c;
+  background-image: linear-gradient(to right bottom, #4a148c, #5b16a3, #6e17bb, #8116d3, #9612eb);
 }
 .mobile .item7 .text-div {
   width: 100%;
-  background-color:#1e7746;
+  background-image: linear-gradient(to right bottom, #1e7746, #1b7b4a, #177f4d, #118451, #078855);
 }
 
 .mobile .item .text-div h1{
   padding-top: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bolder;
 }
 .mobile .item .text-div h6{
-  font-size: 1.5rem;
-
+  font-size: 14px;
+  line-height:25px;
 }
 .mobile .item .text-div h4{
     padding-top:2rem;
-    font-size: 2rem;
-    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    padding-bottom: 2rem;
 } 
+.mobile .item .text-div  button{
+    font-size: 14px !important;
+    padding:10px 6px 10px ;
+    border-radius: 15px;
+    border: 1px solid #02023b;
+}
+.mobile .item6 .text-div h4,.mobile .item7 .text-div h4{
+  padding-bottom: 0;
+}
+.mobile .item6 .text-div .img1{
+  margin-top: -4.5rem;
+  position:absolute;
+  background-color: #ffffff;
+  width: 15rem;
+  height: 4rem;
+  border: 2px solid #bf2ff9;
+  border-radius: 5px;
+  margin-left: -1.5rem!important;
+}
+
+.mobile .item7 .text-div .img1{
+  margin-top: -4.5rem;
+  position:absolute;
+  background-color: #ffffff;
+  width: 15rem;
+  height: 4rem;
+  border: 2px solid #177f4d;
+  border-radius: 5px;
+  margin-left: -1.5rem!important;
+}
+
+
+
+.owl-theme .owl-dots .owl-dot span{
+  margin-top: -8rem !important;
+  position:sticky !important;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background-color: #07f773 !important;
+}
 
 
 
@@ -383,15 +450,7 @@
 
 
 
-
-
-
-
-
-
-
-
-@media(max-width:1164px){
+@media(max-width:1166px){
 .desktop{
   display: none;
 }
